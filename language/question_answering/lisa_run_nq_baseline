@@ -1,0 +1,38 @@
+#!/bin/bash
+
+#SBATCH -N 1
+#SBATCH -t 24:00:00
+#SBATCH -p gpu
+
+module load eb
+module load Python/3.6.3-foss-2017b
+module load CUDA/9.0.176
+module load cuDNN/7.0.5-CUDA-9.0.176
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:/hpc/eb/Debian/cuDNN/7.0.5-CUDA-9.0.176/lib64:$LD_LIBRARY_PATH
+
+cd /home/samigpu/Codes/language/language/question_answering
+
+HEAD_DIR="/home/samigpu/Codes/language"
+export PYTHONPATH=$PYTHONPATH:$HEAD_DIR
+
+
+export DATA_DIR=/home/samigpu/Codes/Data/language
+export NQ_DATA_DIR=$DATA_DIR/natural_questions/v1.0
+export MODELS_DIR=/home/samigpu/Codes/language/models
+export EMBEDDING_DIR=/home/samigpu/Codes/Data/word_embeddings/glove.840B.300d/glove.840B.300d.txt
+
+CUDA_VISIBLE_DEVICES=0,1 python -m language.question_answering.experiments.nq_long_experiment \
+	  --embeddings_path= $EMBEDDING_DIR \
+	  --nq_long_train_pattern=$NQ_DATA_DIR/train/nq-train-*.long.tfr \
+	  --nq_long_eval_pattern=$NQ_DATA_DIR/dev/nq-dev-*.long.tfr \
+	  --num_eval_steps=100 \
+	  --batch_size=4 \
+	  --model_dir=$MODELS_DIR/nq_long
+
+
+CUDA_VISIBLE_DEVICES=2,3 python -m language.question_answering.experiments.nq_short_pipeline_experiment \
+	  --embeddings_path=$EMBEDDING_DIR \
+	  --nq_short_pipeline_train_pattern=$NQ_DATA_DIR/train/nq-train-*.short_pipeline.tfr \
+	  --nq_short_pipeline_eval_pattern=$NQ_DATA_DIR/dev/nq-dev-*.short_pipeline.tfr \
+	  --num_eval_steps=10 \
+	  --model_dir=$MODELS_DIR/nq_short_pipeline
