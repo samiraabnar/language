@@ -5548,3 +5548,1356 @@ INFO:tensorflow:global_step/sec: 1.53826
 INFO:tensorflow:loss = 2.4998038, step = 84100 (65.009 sec)
 INFO:tensorflow:global_step/sec: 1.52419
 INFO:tensorflow:loss = 2.6952224, step = 84200 (65.609 sec)
+INFO:tensorflow:global_step/sec: 1.5378
+INFO:tensorflow:loss = 2.0825193, step = 84300 (65.027 sec)
+INFO:tensorflow:global_step/sec: 1.54642
+INFO:tensorflow:loss = 2.6969955, step = 84400 (64.666 sec)
+INFO:tensorflow:global_step/sec: 1.52048
+INFO:tensorflow:loss = 2.3387074, step = 84500 (65.768 sec)
+INFO:tensorflow:global_step/sec: 1.51403
+INFO:tensorflow:loss = 1.3822405, step = 84600 (66.050 sec)
+INFO:tensorflow:global_step/sec: 1.52291
+INFO:tensorflow:loss = 2.2664866, step = 84700 (65.663 sec)
+INFO:tensorflow:global_step/sec: 1.53438
+INFO:tensorflow:loss = 2.4039085, step = 84800 (65.173 sec)
+INFO:tensorflow:global_step/sec: 1.52333
+INFO:tensorflow:loss = 2.5748942, step = 84900 (65.647 sec)
+INFO:tensorflow:Saving checkpoints for 85000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 11:29:45.468881: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:29:45.469053: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:29:45.469068: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:29:45.469077: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:29:45.469085: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:29:45.469381: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:29:45.469542: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 11:29:46.757576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:29:46.757750: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:29:46.757777: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:29:46.757786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:29:46.757794: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:29:46.758078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:29:46.758244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-10:29:49
+INFO:tensorflow:Graph was finalized.
+2019-01-25 11:29:50.848185: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:29:50.848355: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:29:50.848369: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:29:50.848378: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:29:50.848386: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:29:50.848674: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:29:50.848843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-85000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-10:32:15
+INFO:tensorflow:Saving dict for global step 85000: exact_match = 0.565625, global_step = 85000, loss = 2.783369
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 85000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-85000
+INFO:tensorflow:global_step/sec: 0.456913
+INFO:tensorflow:loss = 2.1044848, step = 85000 (218.859 sec)
+INFO:tensorflow:global_step/sec: 1.52695
+INFO:tensorflow:loss = 2.8768802, step = 85100 (65.490 sec)
+INFO:tensorflow:global_step/sec: 1.53806
+INFO:tensorflow:loss = 2.200594, step = 85200 (65.018 sec)
+INFO:tensorflow:global_step/sec: 1.51872
+INFO:tensorflow:loss = 1.9481727, step = 85300 (65.843 sec)
+INFO:tensorflow:global_step/sec: 1.52072
+INFO:tensorflow:loss = 1.7682648, step = 85400 (65.759 sec)
+INFO:tensorflow:global_step/sec: 1.52319
+INFO:tensorflow:loss = 2.4332504, step = 85500 (65.652 sec)
+INFO:tensorflow:global_step/sec: 1.52593
+INFO:tensorflow:loss = 2.0963717, step = 85600 (65.534 sec)
+INFO:tensorflow:global_step/sec: 1.54711
+INFO:tensorflow:loss = 2.7214296, step = 85700 (64.635 sec)
+INFO:tensorflow:global_step/sec: 1.54981
+INFO:tensorflow:loss = 2.7466435, step = 85800 (64.525 sec)
+INFO:tensorflow:global_step/sec: 1.51154
+INFO:tensorflow:loss = 1.8387139, step = 85900 (66.157 sec)
+INFO:tensorflow:Saving checkpoints for 86000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 11:43:13.319809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:43:13.319985: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:43:13.319997: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:43:13.320006: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:43:13.320013: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:43:13.320311: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:43:13.320482: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 11:43:14.527924: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:43:14.528103: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:43:14.528116: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:43:14.528124: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:43:14.528131: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:43:14.528417: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:43:14.528582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-10:43:17
+INFO:tensorflow:Graph was finalized.
+2019-01-25 11:43:18.274052: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:43:18.274208: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:43:18.274221: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:43:18.274230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:43:18.274238: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:43:18.274530: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:43:18.274700: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-86000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-10:45:46
+INFO:tensorflow:Saving dict for global step 86000: exact_match = 0.578125, global_step = 86000, loss = 2.8554225
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 86000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-86000
+INFO:tensorflow:global_step/sec: 0.448397
+INFO:tensorflow:loss = 1.2693019, step = 86000 (223.017 sec)
+INFO:tensorflow:global_step/sec: 1.53851
+INFO:tensorflow:loss = 2.1358266, step = 86100 (64.998 sec)
+INFO:tensorflow:global_step/sec: 1.52239
+INFO:tensorflow:loss = 2.2818398, step = 86200 (65.687 sec)
+INFO:tensorflow:global_step/sec: 1.53425
+INFO:tensorflow:loss = 2.6690767, step = 86300 (65.177 sec)
+INFO:tensorflow:global_step/sec: 1.53469
+INFO:tensorflow:loss = 2.3984227, step = 86400 (65.160 sec)
+INFO:tensorflow:global_step/sec: 1.5325
+INFO:tensorflow:loss = 2.2262666, step = 86500 (65.252 sec)
+INFO:tensorflow:global_step/sec: 1.51329
+INFO:tensorflow:loss = 1.4234519, step = 86600 (66.082 sec)
+INFO:tensorflow:global_step/sec: 1.52763
+INFO:tensorflow:loss = 2.6131082, step = 86700 (65.461 sec)
+INFO:tensorflow:global_step/sec: 1.49504
+INFO:tensorflow:loss = 2.20696, step = 86800 (66.888 sec)
+INFO:tensorflow:global_step/sec: 1.53656
+INFO:tensorflow:loss = 2.213234, step = 86900 (65.081 sec)
+INFO:tensorflow:Saving checkpoints for 87000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 11:56:46.831543: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:56:46.831711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:56:46.831725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:56:46.831734: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:56:46.831741: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:56:46.832027: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:56:46.832184: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 11:56:48.489524: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:56:48.489698: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:56:48.489711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:56:48.489720: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:56:48.489727: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:56:48.489999: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:56:48.490148: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-10:56:50
+INFO:tensorflow:Graph was finalized.
+2019-01-25 11:56:52.158935: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 11:56:52.159089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 11:56:52.159102: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 11:56:52.159111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 11:56:52.159118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 11:56:52.159387: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 11:56:52.159554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-87000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-10:59:20
+INFO:tensorflow:Saving dict for global step 87000: exact_match = 0.571875, global_step = 87000, loss = 2.6870012
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 87000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-87000
+INFO:tensorflow:global_step/sec: 0.446335
+INFO:tensorflow:loss = 2.1884575, step = 87000 (224.048 sec)
+INFO:tensorflow:global_step/sec: 1.51623
+INFO:tensorflow:loss = 2.828124, step = 87100 (65.953 sec)
+INFO:tensorflow:global_step/sec: 1.52881
+INFO:tensorflow:loss = 2.3075833, step = 87200 (65.411 sec)
+INFO:tensorflow:global_step/sec: 1.54349
+INFO:tensorflow:loss = 2.2612612, step = 87300 (64.787 sec)
+INFO:tensorflow:global_step/sec: 1.53626
+INFO:tensorflow:loss = 2.5223489, step = 87400 (65.094 sec)
+INFO:tensorflow:global_step/sec: 1.5278
+INFO:tensorflow:loss = 2.6652176, step = 87500 (65.453 sec)
+INFO:tensorflow:global_step/sec: 1.52877
+INFO:tensorflow:loss = 2.5127807, step = 87600 (65.413 sec)
+INFO:tensorflow:global_step/sec: 1.53196
+INFO:tensorflow:loss = 2.3862245, step = 87700 (65.276 sec)
+INFO:tensorflow:global_step/sec: 1.54887
+INFO:tensorflow:loss = 2.7182121, step = 87800 (64.562 sec)
+INFO:tensorflow:global_step/sec: 1.5189
+INFO:tensorflow:loss = 2.8660607, step = 87900 (65.836 sec)
+INFO:tensorflow:Saving checkpoints for 88000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 12:10:17.909234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:10:17.909406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:10:17.909419: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:10:17.909428: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:10:17.909435: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:10:17.909710: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:10:17.909847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 12:10:19.099775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:10:19.099931: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:10:19.099944: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:10:19.099953: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:10:19.099960: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:10:19.100231: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:10:19.100378: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-11:10:21
+INFO:tensorflow:Graph was finalized.
+2019-01-25 12:10:22.956028: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:10:22.956190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:10:22.956202: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:10:22.956211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:10:22.956219: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:10:22.956502: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:10:22.956668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-88000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-11:12:51
+INFO:tensorflow:Saving dict for global step 88000: exact_match = 0.553125, global_step = 88000, loss = 2.825046
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 88000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-88000
+INFO:tensorflow:global_step/sec: 0.448703
+INFO:tensorflow:loss = 2.179884, step = 88000 (222.865 sec)
+INFO:tensorflow:global_step/sec: 1.53545
+INFO:tensorflow:loss = 2.6278543, step = 88100 (65.128 sec)
+INFO:tensorflow:global_step/sec: 1.52158
+INFO:tensorflow:loss = 2.4378142, step = 88200 (65.721 sec)
+INFO:tensorflow:global_step/sec: 1.53574
+INFO:tensorflow:loss = 2.2963877, step = 88300 (65.115 sec)
+INFO:tensorflow:global_step/sec: 1.53289
+INFO:tensorflow:loss = 2.3181474, step = 88400 (65.236 sec)
+INFO:tensorflow:global_step/sec: 1.53455
+INFO:tensorflow:loss = 2.587092, step = 88500 (65.166 sec)
+INFO:tensorflow:global_step/sec: 1.54304
+INFO:tensorflow:loss = 2.1022115, step = 88600 (64.808 sec)
+INFO:tensorflow:global_step/sec: 1.51773
+INFO:tensorflow:loss = 2.3220081, step = 88700 (65.889 sec)
+INFO:tensorflow:global_step/sec: 1.52745
+INFO:tensorflow:loss = 1.1950517, step = 88800 (65.467 sec)
+INFO:tensorflow:global_step/sec: 1.52348
+INFO:tensorflow:loss = 2.4336247, step = 88900 (65.638 sec)
+INFO:tensorflow:Saving checkpoints for 89000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 12:23:48.439909: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:23:48.440084: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:23:48.440107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:23:48.440116: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:23:48.440123: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:23:48.440417: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:23:48.440599: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 12:23:49.642655: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:23:49.642823: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:23:49.642836: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:23:49.642844: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:23:49.642851: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:23:49.643139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:23:49.643312: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-11:23:52
+INFO:tensorflow:Graph was finalized.
+2019-01-25 12:23:53.590946: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:23:53.591104: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:23:53.591117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:23:53.591126: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:23:53.591133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:23:53.591416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:23:53.591559: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-89000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-11:26:22
+INFO:tensorflow:Saving dict for global step 89000: exact_match = 0.553125, global_step = 89000, loss = 2.9319165
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 89000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-89000
+INFO:tensorflow:global_step/sec: 0.44995
+INFO:tensorflow:loss = 2.4356117, step = 89000 (222.247 sec)
+INFO:tensorflow:global_step/sec: 1.52185
+INFO:tensorflow:loss = 2.473812, step = 89100 (65.711 sec)
+INFO:tensorflow:global_step/sec: 1.5408
+INFO:tensorflow:loss = 2.6231494, step = 89200 (64.900 sec)
+INFO:tensorflow:global_step/sec: 1.55081
+INFO:tensorflow:loss = 2.5040326, step = 89300 (64.482 sec)
+INFO:tensorflow:global_step/sec: 1.52784
+INFO:tensorflow:loss = 2.3021178, step = 89400 (65.453 sec)
+INFO:tensorflow:global_step/sec: 1.52124
+INFO:tensorflow:loss = 2.439305, step = 89500 (65.736 sec)
+INFO:tensorflow:global_step/sec: 1.5165
+INFO:tensorflow:loss = 2.0456748, step = 89600 (65.942 sec)
+INFO:tensorflow:global_step/sec: 1.52018
+INFO:tensorflow:loss = 2.4101539, step = 89700 (65.781 sec)
+INFO:tensorflow:global_step/sec: 1.53556
+INFO:tensorflow:loss = 1.9758023, step = 89800 (65.123 sec)
+INFO:tensorflow:global_step/sec: 1.53249
+INFO:tensorflow:loss = 2.0486908, step = 89900 (65.252 sec)
+INFO:tensorflow:Saving checkpoints for 90000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 12:37:19.170880: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:37:19.171055: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:37:19.171068: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:37:19.171077: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:37:19.171084: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:37:19.171377: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:37:19.171551: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 12:37:20.381607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:37:20.381779: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:37:20.381791: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:37:20.381800: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:37:20.381807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:37:20.382098: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:37:20.382282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-11:37:22
+INFO:tensorflow:Graph was finalized.
+2019-01-25 12:37:24.142450: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:37:24.142610: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:37:24.142622: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:37:24.142631: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:37:24.142638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:37:24.142929: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:37:24.143091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-90000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-11:39:52
+INFO:tensorflow:Saving dict for global step 90000: exact_match = 0.571875, global_step = 90000, loss = 2.763193
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 90000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-90000
+INFO:tensorflow:global_step/sec: 0.448943
+INFO:tensorflow:loss = 2.1038234, step = 90000 (222.745 sec)
+INFO:tensorflow:global_step/sec: 1.52058
+INFO:tensorflow:loss = 1.452004, step = 90100 (65.765 sec)
+INFO:tensorflow:global_step/sec: 1.52283
+INFO:tensorflow:loss = 2.2646155, step = 90200 (65.668 sec)
+INFO:tensorflow:global_step/sec: 1.53055
+INFO:tensorflow:loss = 2.4980047, step = 90300 (65.336 sec)
+INFO:tensorflow:global_step/sec: 1.53314
+INFO:tensorflow:loss = 2.1157012, step = 90400 (65.227 sec)
+INFO:tensorflow:global_step/sec: 1.52786
+INFO:tensorflow:loss = 2.2326088, step = 90500 (65.450 sec)
+INFO:tensorflow:global_step/sec: 1.52448
+INFO:tensorflow:loss = 2.4074621, step = 90600 (65.597 sec)
+INFO:tensorflow:global_step/sec: 1.50419
+INFO:tensorflow:loss = 2.1611052, step = 90700 (66.480 sec)
+INFO:tensorflow:global_step/sec: 1.52352
+INFO:tensorflow:loss = 2.1933239, step = 90800 (65.638 sec)
+INFO:tensorflow:global_step/sec: 1.51085
+INFO:tensorflow:loss = 2.4684129, step = 90900 (66.188 sec)
+INFO:tensorflow:Saving checkpoints for 91000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 12:50:53.269762: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:50:53.269937: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:50:53.269950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:50:53.269959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:50:53.269966: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:50:53.270262: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:50:53.270431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 12:50:54.490938: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:50:54.491119: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:50:54.491134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:50:54.491144: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:50:54.491152: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:50:54.491442: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:50:54.491617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-11:50:57
+INFO:tensorflow:Graph was finalized.
+2019-01-25 12:50:58.433421: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 12:50:58.433574: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 12:50:58.433586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 12:50:58.433595: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 12:50:58.433602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 12:50:58.433865: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 12:50:58.434027: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-91000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-11:53:27
+INFO:tensorflow:Saving dict for global step 91000: exact_match = 0.553125, global_step = 91000, loss = 2.8794541
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 91000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-91000
+INFO:tensorflow:global_step/sec: 0.448475
+INFO:tensorflow:loss = 2.3535075, step = 91000 (222.977 sec)
+INFO:tensorflow:global_step/sec: 1.54026
+INFO:tensorflow:loss = 2.4257393, step = 91100 (64.925 sec)
+INFO:tensorflow:global_step/sec: 1.52069
+INFO:tensorflow:loss = 1.7707028, step = 91200 (65.760 sec)
+INFO:tensorflow:global_step/sec: 1.5358
+INFO:tensorflow:loss = 2.4269505, step = 91300 (65.112 sec)
+INFO:tensorflow:global_step/sec: 1.52872
+INFO:tensorflow:loss = 2.2103972, step = 91400 (65.415 sec)
+INFO:tensorflow:global_step/sec: 1.51397
+INFO:tensorflow:loss = 0.74020433, step = 91500 (66.051 sec)
+INFO:tensorflow:global_step/sec: 1.52374
+INFO:tensorflow:loss = 2.4205642, step = 91600 (65.628 sec)
+INFO:tensorflow:global_step/sec: 1.53578
+INFO:tensorflow:loss = 2.2332697, step = 91700 (65.113 sec)
+INFO:tensorflow:global_step/sec: 1.50027
+INFO:tensorflow:loss = 3.3041918, step = 91800 (66.655 sec)
+INFO:tensorflow:global_step/sec: 1.53524
+INFO:tensorflow:loss = 3.0243254, step = 91900 (65.135 sec)
+INFO:tensorflow:Saving checkpoints for 92000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 13:04:26.018763: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:04:26.018931: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:04:26.018945: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:04:26.018953: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:04:26.018961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:04:26.019262: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:04:26.019436: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 13:04:27.218074: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:04:27.218245: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:04:27.218258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:04:27.218266: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:04:27.218273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:04:27.218560: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:04:27.218734: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-12:04:29
+INFO:tensorflow:Graph was finalized.
+2019-01-25 13:04:30.931666: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:04:30.931822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:04:30.931834: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:04:30.931843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:04:30.931850: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:04:30.932139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:04:30.932314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-92000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-12:06:58
+INFO:tensorflow:Saving dict for global step 92000: exact_match = 0.571875, global_step = 92000, loss = 2.8519213
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 92000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-92000
+INFO:tensorflow:global_step/sec: 0.451814
+INFO:tensorflow:loss = 1.9076966, step = 92000 (221.331 sec)
+INFO:tensorflow:global_step/sec: 1.53494
+INFO:tensorflow:loss = 2.3905864, step = 92100 (65.149 sec)
+INFO:tensorflow:global_step/sec: 1.51708
+INFO:tensorflow:loss = 1.240483, step = 92200 (65.917 sec)
+INFO:tensorflow:global_step/sec: 1.51153
+INFO:tensorflow:loss = 2.4567804, step = 92300 (66.158 sec)
+INFO:tensorflow:global_step/sec: 1.51319
+INFO:tensorflow:loss = 2.417223, step = 92400 (66.086 sec)
+INFO:tensorflow:global_step/sec: 1.52931
+INFO:tensorflow:loss = 2.2714348, step = 92500 (65.388 sec)
+INFO:tensorflow:global_step/sec: 1.53186
+INFO:tensorflow:loss = 2.2626724, step = 92600 (65.281 sec)
+INFO:tensorflow:global_step/sec: 1.5376
+INFO:tensorflow:loss = 2.3258672, step = 92700 (65.036 sec)
+INFO:tensorflow:global_step/sec: 1.53508
+INFO:tensorflow:loss = 1.0867475, step = 92800 (65.144 sec)
+INFO:tensorflow:global_step/sec: 1.52332
+INFO:tensorflow:loss = 2.1518211, step = 92900 (65.645 sec)
+INFO:tensorflow:Saving checkpoints for 93000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 13:17:57.886854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:17:57.887035: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:17:57.887048: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:17:57.887057: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:17:57.887064: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:17:57.887363: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:17:57.887533: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 13:17:59.651254: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:17:59.651422: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:17:59.651434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:17:59.651443: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:17:59.651450: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:17:59.651746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:17:59.651921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-12:18:01
+INFO:tensorflow:Graph was finalized.
+2019-01-25 13:18:03.401219: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:18:03.401367: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:18:03.401379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:18:03.401388: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:18:03.401395: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:18:03.401678: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:18:03.401851: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-93000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-12:20:31
+INFO:tensorflow:Saving dict for global step 93000: exact_match = 0.5625, global_step = 93000, loss = 2.9978404
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 93000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-93000
+INFO:tensorflow:global_step/sec: 0.448387
+INFO:tensorflow:loss = 0.86394286, step = 93000 (223.022 sec)
+INFO:tensorflow:global_step/sec: 1.53834
+INFO:tensorflow:loss = 2.4074616, step = 93100 (65.005 sec)
+INFO:tensorflow:global_step/sec: 1.54272
+INFO:tensorflow:loss = 2.3657238, step = 93200 (64.821 sec)
+INFO:tensorflow:global_step/sec: 1.52185
+INFO:tensorflow:loss = 2.1103392, step = 93300 (65.709 sec)
+INFO:tensorflow:global_step/sec: 1.51236
+INFO:tensorflow:loss = 2.4943352, step = 93400 (66.122 sec)
+INFO:tensorflow:global_step/sec: 1.52943
+INFO:tensorflow:loss = 0.5324205, step = 93500 (65.384 sec)
+INFO:tensorflow:global_step/sec: 1.52779
+INFO:tensorflow:loss = 2.325452, step = 93600 (65.455 sec)
+INFO:tensorflow:global_step/sec: 1.52712
+INFO:tensorflow:loss = 2.4328678, step = 93700 (65.482 sec)
+INFO:tensorflow:global_step/sec: 1.53546
+INFO:tensorflow:loss = 2.3296604, step = 93800 (65.128 sec)
+INFO:tensorflow:global_step/sec: 1.53
+INFO:tensorflow:loss = 3.1319098, step = 93900 (65.358 sec)
+INFO:tensorflow:Saving checkpoints for 94000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 13:31:28.570379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:31:28.570546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:31:28.570560: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:31:28.570568: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:31:28.570575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:31:28.570872: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:31:28.571048: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 13:31:29.766662: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:31:29.766831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:31:29.766844: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:31:29.766852: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:31:29.766859: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:31:29.767144: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:31:29.767306: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-12:31:32
+INFO:tensorflow:Graph was finalized.
+2019-01-25 13:31:33.753566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:31:33.753724: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:31:33.753736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:31:33.753745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:31:33.753752: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:31:33.754043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:31:33.754217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-94000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-12:34:02
+INFO:tensorflow:Saving dict for global step 94000: exact_match = 0.546875, global_step = 94000, loss = 2.927773
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 94000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-94000
+INFO:tensorflow:global_step/sec: 0.448425
+INFO:tensorflow:loss = 1.5790875, step = 94000 (223.003 sec)
+INFO:tensorflow:global_step/sec: 1.52718
+INFO:tensorflow:loss = 2.1701243, step = 94100 (65.481 sec)
+INFO:tensorflow:global_step/sec: 1.53294
+INFO:tensorflow:loss = 2.2540379, step = 94200 (65.234 sec)
+INFO:tensorflow:global_step/sec: 1.50117
+INFO:tensorflow:loss = 2.5518079, step = 94300 (66.614 sec)
+INFO:tensorflow:global_step/sec: 1.50134
+INFO:tensorflow:loss = 2.5805902, step = 94400 (66.607 sec)
+INFO:tensorflow:global_step/sec: 1.51824
+INFO:tensorflow:loss = 2.079005, step = 94500 (65.865 sec)
+INFO:tensorflow:global_step/sec: 1.53414
+INFO:tensorflow:loss = 2.1856155, step = 94600 (65.183 sec)
+INFO:tensorflow:global_step/sec: 1.53966
+INFO:tensorflow:loss = 2.6012478, step = 94700 (64.950 sec)
+INFO:tensorflow:global_step/sec: 1.52411
+INFO:tensorflow:loss = 2.2598133, step = 94800 (65.613 sec)
+INFO:tensorflow:global_step/sec: 1.51378
+INFO:tensorflow:loss = 2.0631843, step = 94900 (66.060 sec)
+INFO:tensorflow:Saving checkpoints for 95000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 13:45:03.201432: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:45:03.201608: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:45:03.201621: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:45:03.201630: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:45:03.201637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:45:03.201936: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:45:03.202117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 13:45:04.404054: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:45:04.404228: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:45:04.404241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:45:04.404250: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:45:04.404257: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:45:04.404548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:45:04.404719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-12:45:07
+INFO:tensorflow:Graph was finalized.
+2019-01-25 13:45:08.239199: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:45:08.239365: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:45:08.239378: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:45:08.239387: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:45:08.239394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:45:08.239681: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:45:08.239843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-95000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-12:47:38
+INFO:tensorflow:Saving dict for global step 95000: exact_match = 0.56875, global_step = 95000, loss = 2.9337163
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 95000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-95000
+INFO:tensorflow:global_step/sec: 0.446352
+INFO:tensorflow:loss = 2.2014003, step = 95000 (224.038 sec)
+INFO:tensorflow:global_step/sec: 1.55768
+INFO:tensorflow:loss = 1.8292723, step = 95100 (64.198 sec)
+INFO:tensorflow:global_step/sec: 1.53804
+INFO:tensorflow:loss = 2.215732, step = 95200 (65.018 sec)
+INFO:tensorflow:global_step/sec: 1.52476
+INFO:tensorflow:loss = 2.238648, step = 95300 (65.584 sec)
+INFO:tensorflow:global_step/sec: 1.51349
+INFO:tensorflow:loss = 2.2932105, step = 95400 (66.072 sec)
+INFO:tensorflow:global_step/sec: 1.52881
+INFO:tensorflow:loss = 1.7746217, step = 95500 (65.410 sec)
+INFO:tensorflow:global_step/sec: 1.5214
+INFO:tensorflow:loss = 2.3273382, step = 95600 (65.730 sec)
+INFO:tensorflow:global_step/sec: 1.51502
+INFO:tensorflow:loss = 3.001084, step = 95700 (66.004 sec)
+INFO:tensorflow:global_step/sec: 1.50551
+INFO:tensorflow:loss = 0.7799734, step = 95800 (66.423 sec)
+INFO:tensorflow:global_step/sec: 1.51143
+INFO:tensorflow:loss = 2.4936485, step = 95900 (66.162 sec)
+INFO:tensorflow:Saving checkpoints for 96000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 13:58:37.437085: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:58:37.437260: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:58:37.437274: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:58:37.437282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:58:37.437289: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:58:37.437565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:58:37.437708: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 13:58:38.734889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:58:38.735066: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:58:38.735081: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:58:38.735091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:58:38.735099: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:58:38.735380: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:58:38.735528: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-12:58:41
+INFO:tensorflow:Graph was finalized.
+2019-01-25 13:58:42.634617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 13:58:42.634780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 13:58:42.634794: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 13:58:42.634804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 13:58:42.634812: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 13:58:42.635091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 13:58:42.635259: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-96000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-13:01:11
+INFO:tensorflow:Saving dict for global step 96000: exact_match = 0.590625, global_step = 96000, loss = 2.827523
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 96000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-96000
+INFO:tensorflow:Performing best model export.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Signatures INCLUDED in export for Classify: None
+INFO:tensorflow:Signatures INCLUDED in export for Regress: None
+INFO:tensorflow:Signatures INCLUDED in export for Predict: ['serving_default']
+INFO:tensorflow:Signatures INCLUDED in export for Train: None
+INFO:tensorflow:Signatures INCLUDED in export for Eval: None
+2019-01-25 14:01:16.803842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:01:16.803998: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:01:16.804011: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:01:16.804020: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:01:16.804027: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:01:16.804319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:01:16.804501: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-96000
+INFO:tensorflow:Assets added to graph.
+INFO:tensorflow:No assets to write.
+INFO:tensorflow:SavedModel written to: /home/samigpu/Codes/language/models/nq_short_pipeline/export/best/temp-b'1548421271'/saved_model.pb
+INFO:tensorflow:global_step/sec: 0.434682
+INFO:tensorflow:loss = 2.4778714, step = 96000 (230.053 sec)
+INFO:tensorflow:global_step/sec: 1.54585
+INFO:tensorflow:loss = 2.377821, step = 96100 (64.689 sec)
+INFO:tensorflow:global_step/sec: 1.5471
+INFO:tensorflow:loss = 2.3469548, step = 96200 (64.638 sec)
+INFO:tensorflow:global_step/sec: 1.51759
+INFO:tensorflow:loss = 1.1064415, step = 96300 (65.893 sec)
+INFO:tensorflow:global_step/sec: 1.52251
+INFO:tensorflow:loss = 0.81181747, step = 96400 (65.682 sec)
+INFO:tensorflow:global_step/sec: 1.5287
+INFO:tensorflow:loss = 2.3360577, step = 96500 (65.415 sec)
+INFO:tensorflow:global_step/sec: 1.5247
+INFO:tensorflow:loss = 1.5836504, step = 96600 (65.587 sec)
+INFO:tensorflow:global_step/sec: 1.52498
+INFO:tensorflow:loss = 1.9905566, step = 96700 (65.574 sec)
+INFO:tensorflow:global_step/sec: 1.52768
+INFO:tensorflow:loss = 2.3350353, step = 96800 (65.460 sec)
+INFO:tensorflow:global_step/sec: 1.51525
+INFO:tensorflow:loss = 1.042016, step = 96900 (65.996 sec)
+INFO:tensorflow:Saving checkpoints for 97000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 14:12:17.513748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:12:17.513918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:12:17.513932: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:12:17.513940: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:12:17.513959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:12:17.514259: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:12:17.514431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 14:12:19.173918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:12:19.174095: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:12:19.174108: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:12:19.174117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:12:19.174124: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:12:19.174424: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:12:19.174607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-13:12:21
+INFO:tensorflow:Graph was finalized.
+2019-01-25 14:12:22.926726: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:12:22.926878: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:12:22.926890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:12:22.926899: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:12:22.926906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:12:22.927192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:12:22.927369: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-97000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-13:14:51
+INFO:tensorflow:Saving dict for global step 97000: exact_match = 0.56875, global_step = 97000, loss = 2.918035
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 97000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-97000
+INFO:tensorflow:global_step/sec: 0.44698
+INFO:tensorflow:loss = 1.9757643, step = 97000 (223.723 sec)
+INFO:tensorflow:global_step/sec: 1.53985
+INFO:tensorflow:loss = 2.4175396, step = 97100 (64.942 sec)
+INFO:tensorflow:global_step/sec: 1.5136
+INFO:tensorflow:loss = 2.072972, step = 97200 (66.068 sec)
+INFO:tensorflow:global_step/sec: 1.53613
+INFO:tensorflow:loss = 2.380167, step = 97300 (65.098 sec)
+INFO:tensorflow:global_step/sec: 1.51887
+INFO:tensorflow:loss = 1.8780215, step = 97400 (65.839 sec)
+INFO:tensorflow:global_step/sec: 1.52892
+INFO:tensorflow:loss = 2.1273506, step = 97500 (65.405 sec)
+INFO:tensorflow:global_step/sec: 1.52346
+INFO:tensorflow:loss = 2.489884, step = 97600 (65.640 sec)
+INFO:tensorflow:global_step/sec: 1.54274
+INFO:tensorflow:loss = 0.9832351, step = 97700 (64.820 sec)
+INFO:tensorflow:global_step/sec: 1.52156
+INFO:tensorflow:loss = 1.1089599, step = 97800 (65.722 sec)
+INFO:tensorflow:global_step/sec: 1.53125
+INFO:tensorflow:loss = 1.246327, step = 97900 (65.306 sec)
+INFO:tensorflow:Saving checkpoints for 98000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 14:25:48.860170: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:25:48.860341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:25:48.860354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:25:48.860363: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:25:48.860370: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:25:48.860668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:25:48.860838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 14:25:50.058672: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:25:50.058838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:25:50.058850: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:25:50.058859: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:25:50.058866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:25:50.059147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:25:50.059323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-13:25:52
+INFO:tensorflow:Graph was finalized.
+2019-01-25 14:25:54.001032: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:25:54.001189: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:25:54.001202: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:25:54.001210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:25:54.001217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:25:54.001492: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:25:54.001637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-98000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-13:28:23
+INFO:tensorflow:Saving dict for global step 98000: exact_match = 0.5625, global_step = 98000, loss = 2.8836594
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 98000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-98000
+INFO:tensorflow:global_step/sec: 0.448677
+INFO:tensorflow:loss = 2.2653975, step = 98000 (222.878 sec)
+INFO:tensorflow:global_step/sec: 1.5266
+INFO:tensorflow:loss = 2.5346627, step = 98100 (65.505 sec)
+INFO:tensorflow:global_step/sec: 1.50787
+INFO:tensorflow:loss = 2.4728599, step = 98200 (66.319 sec)
+INFO:tensorflow:global_step/sec: 1.51517
+INFO:tensorflow:loss = 1.966506, step = 98300 (65.999 sec)
+INFO:tensorflow:global_step/sec: 1.52343
+INFO:tensorflow:loss = 2.4394703, step = 98400 (65.641 sec)
+INFO:tensorflow:global_step/sec: 1.53969
+INFO:tensorflow:loss = 2.0579228, step = 98500 (64.948 sec)
+INFO:tensorflow:global_step/sec: 1.51476
+INFO:tensorflow:loss = 2.5591316, step = 98600 (66.018 sec)
+INFO:tensorflow:global_step/sec: 1.53467
+INFO:tensorflow:loss = 2.499971, step = 98700 (65.160 sec)
+INFO:tensorflow:global_step/sec: 1.50622
+INFO:tensorflow:loss = 2.3445897, step = 98800 (66.392 sec)
+INFO:tensorflow:global_step/sec: 1.5198
+INFO:tensorflow:loss = 2.6662402, step = 98900 (65.797 sec)
+INFO:tensorflow:Saving checkpoints for 99000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 14:39:23.055947: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:39:23.056117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:39:23.056131: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:39:23.056139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:39:23.056147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:39:23.056440: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:39:23.056614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 14:39:24.830077: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:39:24.830247: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:39:24.830259: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:39:24.830268: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:39:24.830276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:39:24.830566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:39:24.830729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-13:39:27
+INFO:tensorflow:Graph was finalized.
+2019-01-25 14:39:28.749303: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:39:28.749474: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:39:28.749488: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:39:28.749497: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:39:28.749505: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:39:28.749798: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:39:28.749974: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-99000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-13:41:58
+INFO:tensorflow:Saving dict for global step 99000: exact_match = 0.5625, global_step = 99000, loss = 2.8498752
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 99000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-99000
+INFO:tensorflow:global_step/sec: 0.447148
+INFO:tensorflow:loss = 2.1061873, step = 99000 (223.640 sec)
+INFO:tensorflow:global_step/sec: 1.51697
+INFO:tensorflow:loss = 2.078434, step = 99100 (65.920 sec)
+INFO:tensorflow:global_step/sec: 1.53818
+INFO:tensorflow:loss = 2.5192218, step = 99200 (65.012 sec)
+INFO:tensorflow:global_step/sec: 1.53666
+INFO:tensorflow:loss = 2.3521647, step = 99300 (65.076 sec)
+INFO:tensorflow:global_step/sec: 1.53855
+INFO:tensorflow:loss = 1.1255136, step = 99400 (64.996 sec)
+INFO:tensorflow:global_step/sec: 1.5117
+INFO:tensorflow:loss = 2.2262752, step = 99500 (66.150 sec)
+INFO:tensorflow:global_step/sec: 1.52442
+INFO:tensorflow:loss = 2.4054432, step = 99600 (65.599 sec)
+INFO:tensorflow:global_step/sec: 1.5301
+INFO:tensorflow:loss = 2.1281528, step = 99700 (65.355 sec)
+INFO:tensorflow:global_step/sec: 1.51493
+INFO:tensorflow:loss = 2.3011618, step = 99800 (66.011 sec)
+INFO:tensorflow:global_step/sec: 1.52554
+INFO:tensorflow:loss = 2.2037091, step = 99900 (65.549 sec)
+INFO:tensorflow:Saving checkpoints for 100000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 14:52:58.260988: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:52:58.261152: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:52:58.261167: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:52:58.261176: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:52:58.261184: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:52:58.261461: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:52:58.261633: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 14:52:59.547418: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:52:59.547596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:52:59.547620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:52:59.547629: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:52:59.547637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:52:59.547912: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:52:59.548072: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-13:53:01
+INFO:tensorflow:Graph was finalized.
+2019-01-25 14:53:03.650529: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 14:53:03.650700: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 14:53:03.650714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 14:53:03.650724: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 14:53:03.650733: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 14:53:03.651023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 14:53:03.651202: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-100000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-13:55:33
+INFO:tensorflow:Saving dict for global step 100000: exact_match = 0.590625, global_step = 100000, loss = 2.8418012
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 100000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-100000
+INFO:tensorflow:global_step/sec: 0.443811
+INFO:tensorflow:loss = 1.9702616, step = 100000 (225.322 sec)
+INFO:tensorflow:global_step/sec: 1.54032
+INFO:tensorflow:loss = 2.341189, step = 100100 (64.921 sec)
+INFO:tensorflow:global_step/sec: 1.5279
+INFO:tensorflow:loss = 2.47353, step = 100200 (65.450 sec)
+INFO:tensorflow:global_step/sec: 1.52328
+INFO:tensorflow:loss = 2.4223447, step = 100300 (65.647 sec)
+INFO:tensorflow:global_step/sec: 1.51725
+INFO:tensorflow:loss = 1.6507827, step = 100400 (65.918 sec)
+INFO:tensorflow:global_step/sec: 1.51684
+INFO:tensorflow:loss = 1.9778132, step = 100500 (65.918 sec)
+INFO:tensorflow:global_step/sec: 1.53082
+INFO:tensorflow:loss = 2.3204584, step = 100600 (65.325 sec)
+INFO:tensorflow:global_step/sec: 1.53101
+INFO:tensorflow:loss = 0.8048338, step = 100700 (65.315 sec)
+INFO:tensorflow:global_step/sec: 1.53537
+INFO:tensorflow:loss = 2.0775113, step = 100800 (65.131 sec)
+INFO:tensorflow:global_step/sec: 1.53499
+INFO:tensorflow:loss = 2.2683716, step = 100900 (65.147 sec)
+INFO:tensorflow:Saving checkpoints for 101000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 15:06:31.084038: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:06:31.084215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:06:31.084228: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:06:31.084236: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:06:31.084243: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:06:31.084541: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:06:31.084712: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 15:06:32.294355: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:06:32.294522: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:06:32.294535: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:06:32.294544: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:06:32.294551: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:06:32.294840: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:06:32.295012: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-14:06:35
+INFO:tensorflow:Graph was finalized.
+2019-01-25 15:06:36.273372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:06:36.273530: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:06:36.273542: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:06:36.273552: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:06:36.273559: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:06:36.273847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:06:36.274009: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-101000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-14:09:04
+INFO:tensorflow:Saving dict for global step 101000: exact_match = 0.571875, global_step = 101000, loss = 2.8309433
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 101000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-101000
+INFO:tensorflow:global_step/sec: 0.449267
+INFO:tensorflow:loss = 1.5661025, step = 101000 (222.585 sec)
+INFO:tensorflow:global_step/sec: 1.5365
+INFO:tensorflow:loss = 2.2274477, step = 101100 (65.083 sec)
+INFO:tensorflow:global_step/sec: 1.53016
+INFO:tensorflow:loss = 2.1790028, step = 101200 (65.353 sec)
+INFO:tensorflow:global_step/sec: 1.53613
+INFO:tensorflow:loss = 2.5314522, step = 101300 (65.098 sec)
+INFO:tensorflow:global_step/sec: 1.52558
+INFO:tensorflow:loss = 2.120336, step = 101400 (65.549 sec)
+INFO:tensorflow:global_step/sec: 1.52494
+INFO:tensorflow:loss = 0.54673874, step = 101500 (65.576 sec)
+INFO:tensorflow:global_step/sec: 1.52516
+INFO:tensorflow:loss = 2.2480645, step = 101600 (65.568 sec)
+INFO:tensorflow:global_step/sec: 1.53552
+INFO:tensorflow:loss = 2.1247709, step = 101700 (65.123 sec)
+INFO:tensorflow:global_step/sec: 1.53978
+INFO:tensorflow:loss = 2.031314, step = 101800 (64.945 sec)
+INFO:tensorflow:global_step/sec: 1.539
+INFO:tensorflow:loss = 2.2669895, step = 101900 (64.977 sec)
+INFO:tensorflow:Saving checkpoints for 102000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 15:20:01.043296: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:20:01.043463: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:20:01.043479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:20:01.043488: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:20:01.043497: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:20:01.043804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:20:01.043967: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 15:20:02.815989: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:20:02.816172: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:20:02.816187: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:20:02.816196: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:20:02.816204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:20:02.816496: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:20:02.816670: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-14:20:05
+INFO:tensorflow:Graph was finalized.
+2019-01-25 15:20:06.736273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:20:06.736436: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:20:06.736450: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:20:06.736459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:20:06.736468: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:20:06.736746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:20:06.736914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-102000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-14:22:35
+INFO:tensorflow:Saving dict for global step 102000: exact_match = 0.590625, global_step = 102000, loss = 2.9666824
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 102000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-102000
+INFO:tensorflow:global_step/sec: 0.447278
+INFO:tensorflow:loss = 0.77210164, step = 102000 (223.575 sec)
+INFO:tensorflow:global_step/sec: 1.53992
+INFO:tensorflow:loss = 1.8517594, step = 102100 (64.938 sec)
+INFO:tensorflow:global_step/sec: 1.51632
+INFO:tensorflow:loss = 1.8207233, step = 102200 (65.950 sec)
+INFO:tensorflow:global_step/sec: 1.52993
+INFO:tensorflow:loss = 3.4929612, step = 102300 (65.362 sec)
+INFO:tensorflow:global_step/sec: 1.52457
+INFO:tensorflow:loss = 2.407786, step = 102400 (65.592 sec)
+INFO:tensorflow:global_step/sec: 1.51613
+INFO:tensorflow:loss = 2.3651667, step = 102500 (65.958 sec)
+INFO:tensorflow:global_step/sec: 1.53138
+INFO:tensorflow:loss = 2.2514262, step = 102600 (65.301 sec)
+INFO:tensorflow:global_step/sec: 1.52738
+INFO:tensorflow:loss = 2.2731984, step = 102700 (65.471 sec)
+INFO:tensorflow:global_step/sec: 1.5157
+INFO:tensorflow:loss = 1.9903013, step = 102800 (65.977 sec)
+INFO:tensorflow:global_step/sec: 1.52103
+INFO:tensorflow:loss = 2.6561182, step = 102900 (65.745 sec)
+INFO:tensorflow:Saving checkpoints for 103000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 15:33:35.166931: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:33:35.167106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:33:35.167119: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:33:35.167127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:33:35.167134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:33:35.167428: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:33:35.167598: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 15:33:36.379911: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:33:36.380082: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:33:36.380095: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:33:36.380103: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:33:36.380110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:33:36.380393: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:33:36.380558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-14:33:39
+INFO:tensorflow:Graph was finalized.
+2019-01-25 15:33:40.367120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:33:40.367276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:33:40.367288: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:33:40.367297: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:33:40.367304: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:33:40.367591: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:33:40.367778: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-103000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-14:36:08
+INFO:tensorflow:Saving dict for global step 103000: exact_match = 0.58125, global_step = 103000, loss = 3.0254478
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 103000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-103000
+INFO:tensorflow:global_step/sec: 0.449402
+INFO:tensorflow:loss = 1.0854237, step = 103000 (222.517 sec)
+INFO:tensorflow:global_step/sec: 1.52077
+INFO:tensorflow:loss = 1.9726478, step = 103100 (65.757 sec)
+INFO:tensorflow:global_step/sec: 1.52209
+INFO:tensorflow:loss = 2.3440855, step = 103200 (65.700 sec)
+INFO:tensorflow:global_step/sec: 1.51897
+INFO:tensorflow:loss = 1.7139543, step = 103300 (65.833 sec)
+INFO:tensorflow:global_step/sec: 1.54099
+INFO:tensorflow:loss = 1.9023974, step = 103400 (64.894 sec)
+INFO:tensorflow:global_step/sec: 1.52205
+INFO:tensorflow:loss = 2.4760256, step = 103500 (65.700 sec)
+INFO:tensorflow:global_step/sec: 1.53629
+INFO:tensorflow:loss = 2.109078, step = 103600 (65.093 sec)
+INFO:tensorflow:global_step/sec: 1.49913
+INFO:tensorflow:loss = 2.3087866, step = 103700 (66.705 sec)
+INFO:tensorflow:global_step/sec: 1.51801
+INFO:tensorflow:loss = 0.96868217, step = 103800 (65.876 sec)
+INFO:tensorflow:global_step/sec: 1.52332
+INFO:tensorflow:loss = 2.0964992, step = 103900 (65.645 sec)
+INFO:tensorflow:Saving checkpoints for 104000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 15:47:08.989796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:47:08.989968: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:47:08.989982: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:47:08.989990: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:47:08.989997: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:47:08.990292: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:47:08.990460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 15:47:10.211654: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:47:10.211826: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:47:10.211841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:47:10.211850: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:47:10.211859: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:47:10.212150: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:47:10.212297: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-14:47:12
+INFO:tensorflow:Graph was finalized.
+2019-01-25 15:47:14.051858: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:47:14.052018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:47:14.052030: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:47:14.052039: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:47:14.052046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:47:14.052319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:47:14.052460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-104000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-14:49:42
+INFO:tensorflow:Saving dict for global step 104000: exact_match = 0.6, global_step = 104000, loss = 2.9856
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 104000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-104000
+INFO:tensorflow:Performing best model export.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Signatures INCLUDED in export for Classify: None
+INFO:tensorflow:Signatures INCLUDED in export for Regress: None
+INFO:tensorflow:Signatures INCLUDED in export for Predict: ['serving_default']
+INFO:tensorflow:Signatures INCLUDED in export for Train: None
+INFO:tensorflow:Signatures INCLUDED in export for Eval: None
+2019-01-25 15:49:47.739149: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 15:49:47.739304: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 15:49:47.739317: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 15:49:47.739326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 15:49:47.739333: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 15:49:47.739619: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 15:49:47.739784: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-104000
+INFO:tensorflow:Assets added to graph.
+INFO:tensorflow:No assets to write.
+INFO:tensorflow:SavedModel written to: /home/samigpu/Codes/language/models/nq_short_pipeline/export/best/temp-b'1548427782'/saved_model.pb
+INFO:tensorflow:global_step/sec: 0.43498
+INFO:tensorflow:loss = 2.1089334, step = 104000 (229.895 sec)
+INFO:tensorflow:global_step/sec: 1.5278
+INFO:tensorflow:loss = 1.3849834, step = 104100 (65.454 sec)
+INFO:tensorflow:global_step/sec: 1.53971
+INFO:tensorflow:loss = 2.0305457, step = 104200 (64.948 sec)
+INFO:tensorflow:global_step/sec: 1.53776
+INFO:tensorflow:loss = 2.1573966, step = 104300 (65.029 sec)
+INFO:tensorflow:global_step/sec: 1.51734
+INFO:tensorflow:loss = 2.022266, step = 104400 (65.906 sec)
+INFO:tensorflow:global_step/sec: 1.51025
+INFO:tensorflow:loss = 2.6129923, step = 104500 (66.215 sec)
+INFO:tensorflow:global_step/sec: 1.52628
+INFO:tensorflow:loss = 2.2626987, step = 104600 (65.518 sec)
+INFO:tensorflow:global_step/sec: 1.53862
+INFO:tensorflow:loss = 2.044511, step = 104700 (64.993 sec)
+INFO:tensorflow:global_step/sec: 1.51876
+INFO:tensorflow:loss = 1.8761048, step = 104800 (65.844 sec)
+INFO:tensorflow:global_step/sec: 1.50767
+INFO:tensorflow:loss = 1.7411727, step = 104900 (66.327 sec)
+INFO:tensorflow:Saving checkpoints for 105000 into /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+2019-01-25 16:00:48.803504: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 16:00:48.803693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 16:00:48.803707: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 16:00:48.803716: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 16:00:48.803723: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 16:00:48.804031: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 16:00:48.804201: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+2019-01-25 16:00:50.007804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 16:00:50.007972: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 16:00:50.007985: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 16:00:50.007994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 16:00:50.008001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 16:00:50.008280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 16:00:50.008452: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-25-15:00:52
+INFO:tensorflow:Graph was finalized.
+2019-01-25 16:00:53.983640: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0, 1
+2019-01-25 16:00:53.983803: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-01-25 16:00:53.983815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 1 
+2019-01-25 16:00:53.983824: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N Y 
+2019-01-25 16:00:53.983831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 1:   Y N 
+2019-01-25 16:00:53.984118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:b1:00.0, compute capability: 6.1)
+2019-01-25 16:00:53.984296: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10409 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:d9:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-105000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [1/10]
+INFO:tensorflow:Evaluation [2/10]
+INFO:tensorflow:Evaluation [3/10]
+INFO:tensorflow:Evaluation [4/10]
+INFO:tensorflow:Evaluation [5/10]
+INFO:tensorflow:Evaluation [6/10]
+INFO:tensorflow:Evaluation [7/10]
+INFO:tensorflow:Evaluation [8/10]
+INFO:tensorflow:Evaluation [9/10]
+INFO:tensorflow:Evaluation [10/10]
+INFO:tensorflow:Finished evaluation at 2019-01-25-15:03:23
+INFO:tensorflow:Saving dict for global step 105000: exact_match = 0.575, global_step = 105000, loss = 3.1410763
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 105000: /home/samigpu/Codes/language/models/nq_short_pipeline/model.ckpt-105000
+INFO:tensorflow:global_step/sec: 0.448858
+INFO:tensorflow:loss = 2.3744626, step = 105000 (222.788 sec)
+INFO:tensorflow:global_step/sec: 1.52752
+INFO:tensorflow:loss = 1.7453251, step = 105100 (65.466 sec)
+INFO:tensorflow:global_step/sec: 1.52976
+INFO:tensorflow:loss = 2.3905487, step = 105200 (65.370 sec)
+INFO:tensorflow:global_step/sec: 1.51854
+INFO:tensorflow:loss = 2.4872732, step = 105300 (65.853 sec)
+INFO:tensorflow:global_step/sec: 1.54086
+INFO:tensorflow:loss = 0.8437116, step = 105400 (64.899 sec)
+INFO:tensorflow:global_step/sec: 1.52744
+INFO:tensorflow:loss = 1.0633743, step = 105500 (65.469 sec)
+INFO:tensorflow:global_step/sec: 1.52497
+INFO:tensorflow:loss = 1.581907, step = 105600 (65.575 sec)
+INFO:tensorflow:global_step/sec: 1.517
+INFO:tensorflow:loss = 1.0929791, step = 105700 (65.919 sec)
+INFO:tensorflow:global_step/sec: 1.54525
+INFO:tensorflow:loss = 1.9574522, step = 105800 (64.715 sec)
+slurmstepd: error: *** JOB 1481320 ON r32n2 CANCELLED AT 2019-01-25T16:12:20 DUE TO TIME LIMIT ***
