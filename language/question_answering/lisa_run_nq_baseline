@@ -22,7 +22,7 @@ export MODELS_DIR=/home/samigpu/Codes/language/models
 export EMBEDDING_DIR=/home/samigpu/Codes/Data/word_embeddings/glove.840B.300d/glove.840B.300d.txt
 
 CUDA_VISIBLE_DEVICES=0,1 python -m language.question_answering.experiments.nq_long_experiment \
-	  --embeddings_path= $EMBEDDING_DIR \
+	  --embeddings_path=$EMBEDDING_DIR \
 	  --nq_long_train_pattern=$NQ_DATA_DIR/train/nq-train-*.long.tfr \
 	  --nq_long_eval_pattern=$NQ_DATA_DIR/dev/nq-dev-*.long.tfr \
 	  --num_eval_steps=100 \
